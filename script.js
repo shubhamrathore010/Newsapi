@@ -110,12 +110,23 @@ fetchNews();
 let btn = document.getElementById('btn');
 
  function changeColor() {
+    // let articleEle= document.createElement('div')
+    // articleEle.classList.add('article');
+    let articles = document.querySelectorAll('.article');
     if(document.body.style.backgroundColor === 'black'){
         document.body.style.backgroundColor = 'white'
         document.body.style.color = 'black'
+        // articles.forEach(article => {
+        //     article.style.backgroundColor = 'white';
+        //     article.style.color = 'black';
+        // })
     } else {
         document.body.style.backgroundColor = 'black'
         document.body.style.color = 'white'
+    //     articles.forEach(article =>{
+    //     article.style.backgroundColor = 'black';
+    //     article.style.color = 'white'
+    // })
     }
  }
 
