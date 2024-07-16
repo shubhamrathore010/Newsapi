@@ -107,22 +107,22 @@ function hideLoadingIndicator() {
 hideLoadingIndicator()
 fetchNews();
  
-let btn = document.getElementById('btn');
+// let btn = document.getElementById('btn');
 
- function changeColor() {
+//  function changeColor() {
     // let articleEle= document.createElement('div')
     // articleEle.classList.add('article');
-    let articles = document.querySelectorAll('.article');
-    if(document.body.style.backgroundColor === 'black'){
-        document.body.style.backgroundColor = 'white'
-        document.body.style.color = 'black'
+    // let articles = document.querySelectorAll('.article');
+    // if(document.body.style.backgroundColor === 'black'){
+    //     document.body.style.backgroundColor = 'white'
+    //     document.body.style.color = 'black'
         // articles.forEach(article => {
         //     article.style.backgroundColor = 'white';
         //     article.style.color = 'black';
         // })
-    } else {
-        document.body.style.backgroundColor = 'black'
-        document.body.style.color = 'white'
+    // } else {
+    //     document.body.style.backgroundColor = 'black'
+    //     document.body.style.color = 'white'
     //     articles.forEach(article =>{
     //     article.style.backgroundColor = 'black';
     //     article.style.color = 'white'
@@ -130,22 +130,7 @@ let btn = document.getElementById('btn');
     }
  }
 
- btn.addEventListener('click', changeColor)
+//  btn.addEventListener('click', changeColor)
  
 
-// let toggleBackgroundBtn = document.getElementById("toggleBackgroundBtn");
-
-// // Function to toggle background color between white and black
-// function toggleBackgroundColor() {
-//   if (document.body.style.backgroundColor === 'black') {
-//     document.body.style.backgroundColor = 'white';
-//     document.body.style.color = 'black'
-//   } else {
-//     document.body.style.backgroundColor = 'black';
-//     document.body.style.color = 'white'
-//   }
-// }
-
-// // Event listener for button click
-// toggleBackgroundBtn.addEventListener("click", toggleBackgroundColor);
-
+ 
