@@ -1,5 +1,8 @@
  # News Website
 
+Visit my project [NewsApi](https://github.com/shubhamrathore010/Newsapi) for more details.
+
+
 Welcome to the News Website project! This is a responsive website built using HTML, CSS, and JavaScript to showcase news articles fetched from the [Newscatcher API](https://newscatcherapi.com/). The website allows users to browse and search for the latest news articles on various topics.
 
 ![Project Demo](src/Screenshot1.png.gif) <!-- Replace with a demo GIF or screenshot of your website -->
