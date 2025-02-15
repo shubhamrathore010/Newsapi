@@ -127,8 +127,8 @@ fetchNews();
     //     article.style.backgroundColor = 'black';
     //     article.style.color = 'white'
     // })
-    }
- }
+    // }
+ // }
 
 //  btn.addEventListener('click', changeColor)
  
