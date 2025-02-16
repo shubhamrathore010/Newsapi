@@ -33,8 +33,8 @@ This project aims to provide users with an easy-to-use platform to access the la
 
 ## Screenshots
 
-![](src/Screenshot1.png.png)
-![](src/Screenshot2.png.png)
+![](src/Screenshot1.png)
+![](src/Screenshot2.png)
 
 ## Usage
 - Upon opening the website, you'll see a list of the latest news articles.
